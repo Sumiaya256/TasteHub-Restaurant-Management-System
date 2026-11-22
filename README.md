@@ -79,6 +79,3 @@ Computer Science & Engineering
 
 East West University
 
-## 📄 License
-
-This project is available for educational and portfolio purposes. Add a specific open-source license if you want to permit reuse or modification under defined terms.
