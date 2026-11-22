@@ -1,0 +1,267 @@
+INSERT INTO CATEGORIES VALUES
+(1, 'Burgers', 'Freshly prepared burgers');
+
+INSERT INTO CATEGORIES VALUES
+(2, 'Pizza', 'Freshly baked pizzas');
+
+INSERT INTO CATEGORIES VALUES
+(3, 'Pasta', 'Italian pasta dishes');
+
+INSERT INTO CATEGORIES VALUES
+(4, 'Rice and Biryani', 'Traditional rice dishes');
+
+INSERT INTO CATEGORIES VALUES
+(5, 'Beverages', 'Cold and refreshing drinks');
+
+INSERT INTO CATEGORIES VALUES
+(6, 'Desserts', 'Sweet dishes and desserts');
+
+
+
+
+INSERT INTO CUSTOMERS VALUES
+(101, 'Ayesha Rahman', '01711234567',
+ 'ayesha@gmail.com', 'Dhanmondi, Dhaka',
+ DATE '2026-11-10');
+
+INSERT INTO CUSTOMERS VALUES
+(102, 'Tanvir Ahmed', '01812345678',
+ 'tanvir@gmail.com', 'Uttara, Dhaka',
+ DATE '2026-11-11');
+
+INSERT INTO CUSTOMERS VALUES
+(103, 'Nusrat Jahan', '01911223344',
+ 'nusrat@gmail.com', 'Mirpur, Dhaka',
+ DATE '2026-11-12');
+
+INSERT INTO CUSTOMERS VALUES
+(104, 'Fahim Hasan', '01612345678',
+ 'fahim@gmail.com', 'Mohammadpur, Dhaka',
+ DATE '2026-11-13');
+
+INSERT INTO CUSTOMERS VALUES
+(105, 'Sadia Islam', '01798765432',
+ 'sadia@gmail.com', 'Bashundhara, Dhaka',
+ DATE '2026-11-14');
+
+INSERT INTO CUSTOMERS VALUES
+(106, 'Rafiul Karim', '01898765432',
+ 'rafiul@gmail.com', 'Banani, Dhaka',
+ DATE '2026-11-15');
+
+INSERT INTO CUSTOMERS VALUES
+(107, 'Maliha Chowdhury', '01987654321',
+ 'maliha@gmail.com', 'Gulshan, Dhaka',
+ DATE '2026-11-16');
+
+INSERT INTO CUSTOMERS VALUES
+(108, 'Sakib Hossain', '01698765432',
+ 'sakib@gmail.com', 'Badda, Dhaka',
+ DATE '2026-11-17');
+
+
+
+INSERT INTO EMPLOYEES VALUES
+(301, 'Rahim Uddin', '01511111111',
+ 'rahim@tastehub.com', 'MANAGER',
+ DATE '2025-01-10', 45000, 'ACTIVE');
+
+INSERT INTO EMPLOYEES VALUES
+(302, 'Jannatul Ferdous', '01522222222',
+ 'jannatul@tastehub.com', 'CASHIER',
+ DATE '2025-03-15', 25000, 'ACTIVE');
+
+INSERT INTO EMPLOYEES VALUES
+(303, 'Arif Hossain', '01533333333',
+ 'arif@tastehub.com', 'WAITER',
+ DATE '2025-05-20', 18000, 'ACTIVE');
+
+INSERT INTO EMPLOYEES VALUES
+(304, 'Mehedi Hasan', '01544444444',
+ 'mehedi@tastehub.com', 'CHEF',
+ DATE '2024-12-01', 30000, 'ACTIVE');
+
+INSERT INTO EMPLOYEES VALUES
+(305, 'Nabila Akter', '01555555555',
+ 'nabila@tastehub.com', 'WAITER',
+ DATE '2025-07-12', 18000, 'ACTIVE');
+
+
+
+
+INSERT INTO MENU_ITEMS VALUES
+(201, 'Classic Beef Burger', 1,
+ 'Grilled beef patty with fresh vegetables',
+ 320, 'Y', DATE '2026-01-01');
+
+INSERT INTO MENU_ITEMS VALUES
+(202, 'Chicken Cheese Burger', 1,
+ 'Chicken patty with melted cheese',
+ 280, 'Y', DATE '2026-01-01');
+
+INSERT INTO MENU_ITEMS VALUES
+(203, 'Chicken BBQ Pizza', 2,
+ 'BBQ chicken pizza with mozzarella cheese',
+ 650, 'Y', DATE '2026-01-01');
+
+INSERT INTO MENU_ITEMS VALUES
+(204, 'Margherita Pizza', 2,
+ 'Classic tomato and mozzarella pizza',
+ 520, 'Y', DATE '2026-01-01');
+
+INSERT INTO MENU_ITEMS VALUES
+(205, 'Chicken Alfredo Pasta', 3,
+ 'Creamy Alfredo pasta with chicken',
+ 480, 'Y', DATE '2026-01-01');
+
+INSERT INTO MENU_ITEMS VALUES
+(206, 'Beef Biryani', 4,
+ 'Traditional aromatic beef biryani',
+ 350, 'Y', DATE '2026-01-01');
+
+INSERT INTO MENU_ITEMS VALUES
+(207, 'Chicken Biryani', 4,
+ 'Traditional chicken biryani',
+ 280, 'Y', DATE '2026-01-01');
+
+INSERT INTO MENU_ITEMS VALUES
+(208, 'Fresh Lime', 5,
+ 'Fresh lime juice',
+ 120, 'Y', DATE '2026-01-01');
+
+INSERT INTO MENU_ITEMS VALUES
+(209, 'Chocolate Brownie', 6,
+ 'Chocolate brownie dessert',
+ 180, 'Y', DATE '2026-01-01');
+
+INSERT INTO MENU_ITEMS VALUES
+(210, 'French Fries', 1,
+ 'Crispy golden french fries',
+ 160, 'Y', DATE '2026-01-01');
+
+INSERT INTO MENU_ITEMS VALUES
+(211, 'Soft Drink', 5,
+ 'Chilled soft drink',
+ 80, 'Y', DATE '2026-01-01');
+
+INSERT INTO MENU_ITEMS VALUES
+(212, 'Bottled Water', 5,
+ 'Mineral drinking water',
+ 60, 'Y', DATE '2026-01-01');
+
+
+
+
+INSERT INTO ORDERS VALUES
+(5001, 101, 302, DATE '2026-11-18',
+ 'DINE_IN', 'COMPLETED', 940);
+
+INSERT INTO ORDERS VALUES
+(5002, 102, 302, DATE '2026-11-19',
+ 'TAKEAWAY', 'COMPLETED', 800);
+
+INSERT INTO ORDERS VALUES
+(5003, 103, 303, DATE '2026-11-20',
+ 'DELIVERY', 'PREPARING', 1130);
+
+INSERT INTO ORDERS VALUES
+(5004, 104, 302, DATE '2026-11-21',
+ 'DINE_IN', 'PENDING', 650);
+
+INSERT INTO ORDERS VALUES
+(5005, 105, 303, DATE '2026-11-21',
+ 'TAKEAWAY', 'COMPLETED', 460);
+
+INSERT INTO ORDERS VALUES
+(5006, 106, 303, DATE '2026-11-21',
+ 'DELIVERY', 'READY', 760);
+
+INSERT INTO ORDERS VALUES
+(5007, 107, 302, DATE '2026-11-22',
+ 'DINE_IN', 'CONFIRMED', 940);
+
+INSERT INTO ORDERS VALUES
+(5008, 108, 303, DATE '2026-11-22',
+ 'TAKEAWAY', 'CANCELLED', 350);
+
+
+
+
+INSERT INTO ORDER_ITEMS VALUES (5001, 201, 2, 320);
+INSERT INTO ORDER_ITEMS VALUES (5001, 208, 1, 120);
+INSERT INTO ORDER_ITEMS VALUES (5001, 209, 1, 180);
+
+
+
+INSERT INTO ORDER_ITEMS VALUES (5002, 207, 2, 280);
+INSERT INTO ORDER_ITEMS VALUES (5002, 208, 2, 120);
+
+
+
+INSERT INTO ORDER_ITEMS VALUES (5003, 203, 1, 650);
+INSERT INTO ORDER_ITEMS VALUES (5003, 205, 1, 480);
+
+
+INSERT INTO ORDER_ITEMS VALUES (5004, 203, 1, 650);
+
+
+
+INSERT INTO ORDER_ITEMS VALUES (5005, 202, 1, 280);
+INSERT INTO ORDER_ITEMS VALUES (5005, 208, 1, 120);
+INSERT INTO ORDER_ITEMS VALUES (5005, 212, 1, 60);
+
+
+
+INSERT INTO ORDER_ITEMS VALUES (5006, 204, 1, 520);
+INSERT INTO ORDER_ITEMS VALUES (5006, 210, 1, 160);
+INSERT INTO ORDER_ITEMS VALUES (5006, 211, 1, 80);
+
+
+INSERT INTO ORDER_ITEMS VALUES (5007, 205, 1, 480);
+INSERT INTO ORDER_ITEMS VALUES (5007, 207, 1, 280);
+INSERT INTO ORDER_ITEMS VALUES (5007, 209, 1, 180);
+
+
+
+INSERT INTO ORDER_ITEMS VALUES (5008, 206, 1, 350);
+
+
+
+
+INSERT INTO PAYMENTS VALUES
+(7001, 5001, DATE '2026-11-18',
+ 940, 'CASH', 'PAID');
+
+INSERT INTO PAYMENTS VALUES
+(7002, 5002, DATE '2026-11-19',
+ 800, 'CARD', 'PAID');
+
+INSERT INTO PAYMENTS VALUES
+(7003, 5003, DATE '2026-11-20',
+ 1130, 'BKASH', 'PENDING');
+
+INSERT INTO PAYMENTS VALUES
+(7004, 5004, DATE '2026-11-21',
+ 650, 'CASH', 'PENDING');
+
+INSERT INTO PAYMENTS VALUES
+(7005, 5005, DATE '2026-11-21',
+ 460, 'BKASH', 'PAID');
+
+INSERT INTO PAYMENTS VALUES
+(7006, 5006, DATE '2026-11-21',
+ 760, 'CARD', 'PAID');
+
+INSERT INTO PAYMENTS VALUES
+(7007, 5007, DATE '2026-11-22',
+ 940, 'NAGAD', 'PENDING');
+
+INSERT INTO PAYMENTS VALUES
+(7008, 5008, DATE '2026-11-22',
+ 350, 'CASH', 'REFUNDED');
+
+
+
+COMMIT;
+
+
